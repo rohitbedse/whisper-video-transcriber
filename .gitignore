@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+myenv/
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Media files (large)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Output files
+transcription_output/
+*.txt
+*.vtt
+*.json
+*.zip
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keep main.py and requirements.txt - DO NOT IGNORE
+!main.py
+!requirements.txt
+!v1_transcript.txt
